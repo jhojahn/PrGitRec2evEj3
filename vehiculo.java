@@ -24,4 +24,7 @@ public vehiculo(String string, int i, double d) {
 	this.km=i;
 	this.precio=d;
 }
+void incrementarprecio() {
+	precio*=1.1;
+}
 }
