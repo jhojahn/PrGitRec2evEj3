@@ -11,6 +11,7 @@ import lombok.Data;
  */
 public @Data class main {
 	public static void main(String[] args) {
+		cliente c2=new cliente("pepe");
 		vehiculo v1= new vehiculo("2334ABC",33330,25000.6);
 		System.out.println(v1);
 		cliente c1=new cliente();
